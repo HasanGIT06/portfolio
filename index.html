@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <title>Leonardus Hasan — Data Science Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+    <nav>
+        <div class="wrap">
+            <a href="#hero" class="logo">Leonardus Hasan</a>
+            <div class="links">
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+        <div id="bar"></div>
+    </nav>
+
+    <!-- ================= HERO ================= -->
+    <header id="hero">
+        <div class="wrap">
+            <div class="badge"><span class="dot"></span>Studying Data Science...</div>
+            <h1>Hi, I'm <span>Leonardus Hasan</span><br></h1>
+            <div class="role" id="role"></div>
+            <p class="lead">
+                Data Science student with a passion for machine learning and analytics. Experienced in taking projects from raw data exploration 
+                and predictive modeling into actionable insights.
+            </p>
+            <div class="cta">
+                <a class="btn p" href="#projects">View Projects →</a>
+                <a class="btn" href="CV ATS.pdf" target="_blank" rel="noopener">Download CV</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- ================= TENTANG SAYA ================= -->
+    <section id="about">
+        <div class="wrap rv">
+            <div class="grid2">
+                <div class="about">
+                    <h2>About <span>me</span></h2>
+                    <p class="sub">Turning raw data into actionable decisions.</p>
+
+                    <p>
+                        Data Science student who passionate about predictive modeling and Business Intelligence
+                        from data exploration and feature engineering to model development and interactive dashboards.
+                    </p>
+                    <p>
+                        Outside the classroom, I am actively involved in student organizations: leading teams, coordinating campus events, and serving as a teaching assistant and peer mentor. 
+                        These experiences have refined my communication and teamwork skills, which I bring to every data project I undertake.
+                    </p>
+                </div>
+
+                <!-- Foto profil: taruh file foto-profil.jpg di folder yang sama -->
+                <div class="photo">
+                    <span>LH</span>
+                    <small>Letakkan foto profil di sini</small>
+                    <img src="Foto diri CC.jpg" alt="Foto Leonardus Hasan" onerror="this.remove()">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= KEAHLIAN ================= -->
+    <section id="skills" style="background: var(--bg2)">
+        <div class="wrap rv">
+            <h2>Technical Skill</span></h2>
+
+            <div class="skills">
+                <div class="card">
+                    <h3>💻 Languages</h3>
+                    <div class="tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">SQL</span>
+                        <span class="tag">C</span>
+                        <span class="tag">R</span>
+                        <span class="tag">HTML</span>
+                        <span class="tag">CSS</span>
+                        <span class="tag">JavaScript</span>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h3>🧠 Data Science & Machine Learning</h3>
+                    <div class="tags">
+                        <span class="tag">Pandas</span>
+                        <span class="tag">NumPy</span>
+                        <span class="tag">Scikit-Learn</span>
+                        <span class="tag">Tensorflow</span>
+                        <span class="tag">Matplotlib</span>
+                        <span class="tag">Seaborn</span>
+                        <span class="tag">Joblib</span>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h3>📈 Models I Worked On</h3>
+                    <div class="tags">
+                        <span class="tag">Linear Regression</span>
+                        <span class="tag">Logistic Regression</span>
+                        <span class="tag">Random Forest</span>
+                        <span class="tag">XGBoost</span>
+                        <span class="tag">Decision Tree</span>
+                        <span class="tag">LSTM</span>
+                        <span class="tag">YOLOv8</span>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h3>🛠 Tools & Frameworks</h3>
+                    <div class="tags">
+                        <span class="tag">GitHub</span>
+                        <span class="tag">Jupyter</span>
+                        <span class="tag">VS Code</span>
+                        <span class="tag">Google Colab</span>
+                        <span class="tag">Docker</span>
+                        <span class="tag">Streamlit</span>
+                        <span class="tag">FastAPI</span>
+                        <span class="tag">Figma</span>
+                        <span class="tag">Framer</span>
+                        <span class="tag">Mlflow</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= PROYEK UNGGULAN ================= -->
+    <section id="projects">
+        <div class="wrap rv">
+            <h2>My <span>Projects</span></h2>
+            <p class="sub">Take a look on the projects I've done!</p>
+
+            <div class="projects">
+
+                <article class="card proj" data-c="ml">
+                    <div class="thumb">🌫️<img src="spaceship.png" onerror="this.remove()"></div>
+                    <span class="cat">Machine Learning</span>
+                    <h3>Spaceship Titanic</h3>
+                    <p>This project implements a complete Machine Learning workflow from data ingestion to deployment.
+                        The objective is to predict the binary target variable Transported using personal, itinerary, and spending features of the passengers.</p>
+                    <div class="tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">FastAPI</span>
+                        <span class="tag">Streamlit</span>
+                    </div>
+                    <div class="acts">
+                        <a class="btn" href="https://github.com/HasanGIT06/md_05" target="_blank" rel="noopener">GitHub</a>
+                        <a class="btn p" href="https://testing-testing1.streamlit.app/" target="_blank" rel="noopener">Live Demo</a>
+                    </div>
+                </article>
+
+                <article class="card proj" data-c="ml">
+                    <div class="thumb">💨<img src="credit_score.png" onerror="this.remove()"></div>
+                    <span class="cat">Machine Learning</span>
+                    <h3>Credit Score Classification</h3>
+                    <p>Built a machine learning model to classify customers into Poor, Standard, and Good credit scores, using data preprocessing, feature engineering, and XGBoost optimization. The final model achieved 75% accuracy on the test set.</p>
+                    <div class="tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">Scikit-Learn</span>
+                        <span class="tag">XGBoost</span>
+                    </div>
+                    <div class="acts">
+                        <a class="btn" href="https://github.com/HasanGIT06/credit-score-classification/tree/main" target="_blank" rel="noopener">GitHub</a>
+                    </div>
+                </article>
+
+                <article class="card proj" data-c="viz">
+                    <div class="thumb">📊<img src="Stock.jpg" alt="Thumbnail Dashboard BI &amp; Analytics" onerror="this.remove()"></div>
+                    <span class="cat">Deep Learning</span>
+                    <h3>AAPL Stock Prediction</h3>
+                    <p>Time-series forecasting model designed to predict AAPL stock prices using Long Short-Term Memory (LSTM) recurrent neural networks. It leverages historical market data 
+                        and technical indicators to capture long-term temporal dependencies and trend patterns for quantitative analysis.</p>
+                    <div class="tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">LSTM</span>
+                        <span class="tag">Tensorflow</span>
+                        <span class="tag">Scikit-Learn</span>
+                    </div>
+                    <div class="acts">
+                        <a class="btn" href="https://github.com/HasanGIT06/AAPL-stock-prediction" target="_blank" rel="noopener">GitHub</a>
+                    </div>
+                </article>
+
+                <article class="card proj" data-c="ml">
+                    <div class="thumb">🍒<img src="smokevapedetection.jpg" onerror="this.remove()"></div>
+                    <span class="cat">Deep Learning</span>
+                    <h3>Smoking Detection</h3>
+                    <p>This project applies YOLOv8 object detection to identify cigarettes, vapes, people, and smoke from images. 
+                        The goal is to support automated detection of smoking-related objects in smoke-free environments.</p>
+                    <div class="tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">YOLOv8</span>
+                    </div>
+                    <div class="acts">
+                        <a class="btn" href="https://github.com/HasanGIT06/smokevapedetection" target="_blank" rel="noopener">GitHub</a>
+                    </div>
+                </article>
+
+                <!-- Proyek 3 -->
+                <article class="card proj" data-c="viz">
+                    <div class="thumb">📊<img src="indonesia_tourism.jpg" alt="Thumbnail Dashboard BI &amp; Analytics" onerror="this.remove()"></div>
+                    <span class="cat">SQL</span>
+                    <h3>Indonesia Tourism</h3>
+                    <p>Designed and structured a relational database from unnormalized data into Third Normal Form (3NF) to eliminate redundancy and improve data integrity. Implemented the physical database schema using SQL to create tables, define primary/foreign key constraints, and establish relational integrity.</p>
+                    <div class="tags">
+                        <span class="tag">MySQL</span>
+                        <span class="tag">Database Normalization</span>
+                        <span class="tag">ERD</span>
+                    </div>
+                    <div class="acts">
+                        <a class="btn" href="https://github.com/HasanGIT06/Indonesia-tourism" target="_blank" rel="noopener">GitHub</a>
+                    </div>
+                </article>
+
+                <a class="card proj proj-more" data-c="all" href="https://github.com/HasanGIT06" target="_blank" rel="noopener">
+                <div class="more-content">
+                    <div class="more-icon">
+                        <!-- Icon GitHub SVG -->
+                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path>
+                            <path d="M9 18c-4.51 2-5-2-7-2"></path>
+                        </svg>
+                    </div>
+                    <h3>View More Projects</h3>
+                    <p>Explore the rest of my work and contributions on GitHub.</p>
+                    <span class="more-arrow">→</span>
+                </div>
+            </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= KONTAK ================= -->
+    <section id="contact" style="background: var(--bg2)">
+        <div class="wrap rv">
+            <h2>Let's build something great together!</h2>
+            <p class="sub">Have a project in mind, a role to fill, or just want to say hello? Drop a message and I'll get back to you within a couple of days..</p>
+
+            <form id="cf">
+                <input name="n" placeholder="Name" required>
+                <input name="e" type="email" placeholder="Email" required>
+                <textarea name="m" placeholder="Message" required></textarea>
+                <button class="btn p" type="submit">Submit</button>
+                <div id="ok"></div>
+            </form>
+        </div>
+    </section>
+
+    <!-- ================= FOOTER ================= -->
+    <footer>
+        <div class="wrap">
+            <span>© 2026 Leonardus Hasan</span>
+            <div class="soc">
+                <a href="https://www.linkedin.com/in/leonardushasan/" target="_blank" rel="noopener">LinkedIn</a>
+                <a href="https://github.com/HasanGIT06" target="_blank" rel="noopener">GitHub</a>
+                <a href="mailto:leonardushasan881@gmail.com">Email</a>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
